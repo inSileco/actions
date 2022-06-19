@@ -1,2 +1,1 @@
-# actions
-GitHub Action for inSileco
+# GitHub Actions for inSileco
