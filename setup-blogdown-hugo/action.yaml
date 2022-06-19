@@ -1,0 +1,14 @@
+# action.yml
+name: 'Blogdown/Hugo setup for'
+description: 'Set up Hugo + Blogdown'
+# inputs:
+#   download_fontawesome:
+#     type: boolean
+outputs:
+  installed-r-version:
+    description: 'The R version installed'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.who-to-greet }}
